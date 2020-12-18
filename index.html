@@ -610,7 +610,11 @@
 	<!-- Grid row -->
 	<script type="text/javascript" src="venobox/venobox.min.js"></script>
 	<!--<script src="js/jssocials-1.4.0/jssocials.min.js"></script>-->
-	<script src="js/call.js"></script>
+	<script>
+	$(document).ready(function(){
+    $('.venobox').venobox(); 
+	});
+	</script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
