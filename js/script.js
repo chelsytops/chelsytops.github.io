@@ -1,3 +1,5 @@
-$(document).ready(function(){
-    $('.venobox').venobox(); 
+$(function(){
+    $(document).bind("contextmenu",function(e){
+        return false;
+    });
 });
